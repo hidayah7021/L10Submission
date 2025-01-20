@@ -31,7 +31,6 @@ const App = () => {
   const renderItem = ({ item }) => (
       <View style={styles.itemContainer}>
         <Text style={styles.itemText}>{item.Breed}</Text>
-        <Text style={styles.itemText}>{item.ID}</Text>
       </View>
   );
 
